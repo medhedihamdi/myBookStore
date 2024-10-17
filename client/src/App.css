@@ -1,0 +1,255 @@
+html,body{
+   height: 100%;
+   margin:0;
+   padding: 0;
+}
+body{
+    background-image: url('../public/wood-body.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center center;
+    height: 100vh; 
+    background-attachment: fixed;
+}
+
+#contact{
+   background-color: black;
+   color: azure;
+   opacity: 0.8;
+   margin: 20px;
+   padding: 20px;
+   max-width: 60%;
+   border-radius: 10%;
+   
+}
+
+#nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url('../public/wood-navbar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+   
+   }
+    
+
+
+
+nav a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-button{
+   background: none;
+   border: none;
+   color: white;
+   cursor: pointer;
+   font-size: 1rem;
+   transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+   color: yellow; /* اللون عند الهافر */
+ }
+
+#logout ,#protected-navLink{
+   color: white;
+   
+}
+
+#logout:hover,#protected-navLink:hover {
+    color: yellow;
+    cursor: pointer;
+    
+
+}
+#admin{
+    padding: 20px;
+   
+}
+
+#admin-head{
+   display: flex;
+   justify-content: space-between;
+   margin: 10px;
+   color: rgb(145, 0, 29);
+}
+
+#order-li{
+   cursor: pointer;
+   
+}
+
+#order-li:hover{
+   color: chocolate;
+}
+
+
+.home{
+
+ padding: 20px;
+ 
+ }
+
+ #protected{
+    padding: 20px;
+ }
+
+ #register{
+    padding: 20px;
+ }
+
+ #cart{
+    padding: 20px;
+ }
+
+ 
+
+ #head-cart{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: brown;
+
+ }
+
+ #head-cart strong{
+   color: gold;
+ }
+
+
+
+
+
+ .cart-handeling{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .order-handeling{
+    
+    padding: 10px;
+ }
+
+
+ .cart-books{
+  
+  
+    padding: 10px;
+
+ }
+
+ .cart-book{
+    border:2px solid;
+    padding:5px;
+    margin: 5px;
+    background-color: coral;
+    opacity:0.75
+ }
+
+ .order-section{
+    border:2px solid;
+    padding:5px;
+    margin: 20px;
+    background-color: chocolate;
+    opacity:0.75
+
+ }
+
+ .order-form{
+   border:2px solid;
+   padding:5px;
+   margin: 5px;
+   background-color: burlywood;
+    opacity:0.75
+
+}
+
+.order-form label{
+   display: block;
+}
+
+
+ .order-box{
+    border:2px solid;
+    padding:5px;
+    margin: 5px;
+    background-color: dimgrey;
+
+ }
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+button   {
+    color:blanchedalmond ;
+    background-image: url('../public/wood-button.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 5px;
+ }
+
+button:hover{
+    color:gold;
+    background-image: url('../public/wood-navbar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+ }
+
+ .mt-auto{
+   background-color: white;
+ }
+
+
+ #users-management{
+         border: 2px solid;
+         padding: 10px;
+       background-color: beige;
+       opacity: 0.6;
+
+ }
+ 
+ #books-management{
+    border: 2px solid;
+    padding: 10px;
+       background-color: beige;
+       opacity: 0.6;
+
+ }
+
+
+
+ #orders-management{
+    border: 2px solid;
+    padding: 10px;
+          background-color: beige;
+          opacity: 0.6;
+ }
+
+
+
+
+
+
+
+ 
+
